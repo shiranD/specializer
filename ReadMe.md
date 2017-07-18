@@ -2,7 +2,7 @@
 
 This repo provides an easy interface for the **Special** OpenFst operations through Python.
 
-In addition to using Pywrapfst library that allows interacting with OpenFst, once compiled **specializer** library allows converting Vector type Fsts to \sigma *Sigma*, \rho *Rho*, or \phi *Phi* fst types. 
+In addition to using Pywrapfst library that allows interacting with OpenFst, once compiled **specializer** library allows converting Vector type Fsts to *sigma*, *rho*, or *phi* fst types. 
 
 The library is written in Cython for speedup and direct API of the C++ code of OpenFst.
 In order to compile it, the following files are required:
