@@ -1,0 +1,4 @@
+0 1 a a 0
+1 2 c c 0 
+2 3 <sigma> <sigma> 1 
+3
