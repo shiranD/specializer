@@ -24,7 +24,7 @@ phifst = specializer.phi(phifst, phi_label, rewrite_mode, phi_self_loop).get()
 
 print "Orignial Fst"
 print one
-print r'intersection with the sigma machine'
+print "intersection with the sigma machine"
 print fst.intersect(sigfst, one)
 print "intersection with the rho machine"
 print fst.intersect(rhofst, one)
