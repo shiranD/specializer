@@ -21,8 +21,8 @@ Ensure that setup.py has the required fields.
 
 Run `python setup.py build_ext --inplace`
 
-To UnitTest:
+To unittest:
 
-Go to UntiTest folder and Ensure pywrapfst is installed
+Go to unitTest folder and Ensure pywrapfst is installed
 
 Run `./test_specializer.sh`
