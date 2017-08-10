@@ -13,7 +13,6 @@ In order to compile it, the following files are required to be present in the di
 * `pywrapfst.pxd`
 * `pywrapfst.pyx`
 * `fst.pxd`
-* `fst_util.pxd`
 
 These files can be found in the `src/extensions/python/` directory of the OpenFST source distribution.
 
