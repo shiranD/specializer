@@ -10,7 +10,7 @@ from Cython.Build import cythonize
 extensions = [
         Extension("specializer",
             sources=["specializer.pyx", "sigma.cpp", "rho.cpp", "phi.cpp"],
-            libraries = ["fst"],
+            libraries = ["fst","fstscript"],
             library_dirs = ["/usr/local/lib", "/usr/local/lib/fst"],
             language="c++",
             extra_compile_args=["-std=c++11"], # this is non-optional...
