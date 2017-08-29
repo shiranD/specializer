@@ -9,7 +9,7 @@ from Cython.Build import cythonize
 
 extensions = [
         Extension("specializer",
-            include_dirs = ["usr/local/include/fst"]
+            include_dirs = ["usr/local/include/fst"],
             sources=["specializer.pyx", "sigma.cpp", "rho.cpp", "phi.cpp"],
             libraries = ["fst","fstscript"],
             library_dirs = ["/usr/local/lib", "/usr/local/lib/fst"],
